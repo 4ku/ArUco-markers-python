@@ -1,5 +1,8 @@
 # ArUco markers
+## Installation of required packages
+`python -m pip install -r requirements.txt`
 
+## Project description
 * __aruco_generator.py__ - Generate ArUco marker with specific ID in folder `ArUco_markers`.
 
   Usage example:  `python aruco_generator.py --id 0 --marker_size 4 --total_markers 50 --pixel_size 700`  
